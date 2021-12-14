@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "server",
+      "type": "java.lang.String",
+      "description": "Description for server."
+    },
+    {
+      "name": "test.jobs",
+      "type": "java.lang.String",
+      "description": "Description for test.jobs."
+    }
+  ] }

@@ -1,0 +1,314 @@
+server:
+  port: 8081
+test:
+  jobs:
+  - {
+    delay: 50000,
+    filename: file1,
+    connection:
+        {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: test
+        },
+    query: select * from user
+  }
+  - {
+      delay: 60000,
+      filename: file2,
+      connection:
+        {
+            driver: com.mysql.jdbc.Driver,
+            host: localhost,
+            port: 3306,
+            userName: root,
+            password: 0000,
+            databaseName: shop
+        },
+      query: select * from clients
+  }
+# more task!!!
+  - {
+    delay: 100000,
+    filename: file3,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 20000,
+    filename: file4,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file5,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file6,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file7,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file8,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file9,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file10,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file11,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file12,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file13,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file14,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 1000,
+    filename: file15,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from clients
+  }
+  - {
+    delay: 45754,
+    filename: file16,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: employees
+      },
+    query: select * from s
+  }
+  - {
+    delay: 500,
+    filename: file17,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: employees
+      },
+    query: select * from salaries
+  }
+  - {
+    delay: 3423,
+    filename: file18,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: employees
+      },
+    query: select * from employees
+  }
+  - {
+    delay: 634634,
+    filename: file19,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: employees
+      },
+    query: select * from dept_emp
+  }
+  - {
+    delay: 54262,
+    filename: file20,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: shop
+      },
+    query: select * from phones
+  }
+  - {
+    delay: 44444,
+    filename: file21,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: bank
+      },
+    query: select * from test
+  }
+  - {
+    delay: 4000,
+    filename: file22,
+    connection:
+      {
+        driver: com.mysql.jdbc.Driver,
+        host: localhost,
+        port: 3306,
+        userName: root,
+        password: 0000,
+        databaseName: employees
+      },
+    query: select * from clients
+  }
+
